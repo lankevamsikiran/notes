@@ -20,4 +20,5 @@ from not import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('getpage',views.index),
+    path('add/', views.newproduct),
 ]
